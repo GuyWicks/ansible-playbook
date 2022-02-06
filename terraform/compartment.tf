@@ -1,7 +1,7 @@
 
 resource "oci_identity_compartment" "tf-compartment" {
     # Required
-    compartment_id = var_compartment_id
+    compartment_id = var.tenancy_ocid
     description = "Compartment for Terraform resources."
-    name = var_compartment_name
+    name = var.compartment_name
 }

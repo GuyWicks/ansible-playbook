@@ -16,13 +16,13 @@ resource "oci_core_instance" "ubuntu_instance" {
     }
 
     # Optional
-    display_name = var_compute_display_name
+    display_name = var.compute_display_name
     create_vnic_details {
         assign_public_ip = true
         subnet_id = oci_core_subnet.vcn-public-subnet.id
     }
     metadata = {
-        ssh_authorized_keys = file(var_compute_ssh_authorized_keys)
+        ssh_authorized_keys = file(var.compute_ssh_authorized_keys)
     } 
     preserve_boot_volume = false
 }
