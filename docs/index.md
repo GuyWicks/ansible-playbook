@@ -1,17 +1,34 @@
-# Welcome to MkDocs
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Scripts and recepies for deploying cloud infrastructure via Ansible and Terraform (with a bit of shell scripting just for fun)
 
-## Commands
+Currently based on the [Oracle Cloud Free Tier](https://www.oracle.com/uk/cloud/free/) services.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Repository structure
 
-## Project layout
+* [Terraform](./Terraform/) - Provision the infrastructure
+* [Build](./Build/) - Initial server OS setup scripts
+* [Ansible](./Ansible/) - Software configuration
+* [Docker](./Docker/) - Docker container scripts
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Current status
+
+### Terraform Phase:
+
+- [x] Terraform basic configuration (DF)
+- [x] Implemenr variables (DF)
+- [ ] Refactoring (DF)
+- [ ] Test on other providers (GW)
+- [ ] Documentation (DF/GW)
+- [ ] Implement post provision scripting (DF)
+
+### Build Phase:
+
+- [ ] Networking
+    * [x] IPTABLES
+    * [x] 
+    * [ ] Praesent sed risus massa
+- [ ] Native software
+    * [x] NGINX install
+    * [ ] NGINX base config
+    
