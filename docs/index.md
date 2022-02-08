@@ -7,7 +7,7 @@ Currently based on the [Oracle Cloud Free Tier](https://www.oracle.com/uk/cloud/
 ## Repository structure
 
 * [Terraform](./Terraform/) - Provision the infrastructure
-* [Build](./Build/) - Initial server OS setup scripts
+* [PreBuild](./Build/) - Initial server OS setup scripts
 * [Ansible](./Ansible/) - Software configuration
 * [Docker](./Docker/) - Docker container scripts
 
