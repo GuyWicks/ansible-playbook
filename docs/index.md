@@ -11,7 +11,7 @@ Currently based on the [Oracle Cloud Free Tier](https://www.oracle.com/uk/cloud/
 * [Ansible](./Ansible/) - Software configuration
 * [Docker](./Docker/) - Docker container scripts
 
-## Current status
+# Current status
 
 ### Terraform Phase:
 
@@ -31,4 +31,4 @@ Currently based on the [Oracle Cloud Free Tier](https://www.oracle.com/uk/cloud/
 - [ ] Native software
     * [x] NGINX install
     * [ ] NGINX base config
-    
+

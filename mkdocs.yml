@@ -1,10 +1,20 @@
 site_name: Anisble Playbook
+#author: Guy Wicks
+repo_url: https://github.com/GuyWicks/anisble-playbook
+#repo_name: GuyWicks/anisble-playbook
+copyright: Copyright &copy; 2022 Guy Wicks
+
 theme:
   name: material
   #name: mkdocs
   #name: readthedocs
   features:
     - content.code.annotate
+    - navigation.instant
+    #- navigation.tracking
+    #- navigation.tabs
+  icon:
+    repo: fontawesome/brands/github
 
 markdown_extensions:
   - pymdownx.highlight:
