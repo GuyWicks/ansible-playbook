@@ -1,7 +1,7 @@
 site_name: Anisble Playbook
 #author: Guy Wicks
 repo_url: https://github.com/GuyWicks/anisble-playbook
-#repo_name: GuyWicks/anisble-playbook
+repo_name: GuyWicks/anisble-playbook
 copyright: Copyright &copy; 2022 Guy Wicks
 
 theme:
