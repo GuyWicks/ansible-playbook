@@ -1,7 +1,7 @@
-site_name: Anisble Playbook
-#author: Guy Wicks
-repo_url: https://github.com/GuyWicks/anisble-playbook
-repo_name: GuyWicks/anisble-playbook
+site_name: Ansible Playbook
+site_author: Guy Wicks
+repo_url: https://github.com/GuyWicks/ansible-playbook
+repo_name: GuyWicks/ansible-playbook
 copyright: Copyright &copy; 2022 Guy Wicks
 
 theme:
@@ -15,6 +15,16 @@ theme:
     #- navigation.tabs
   icon:
     repo: fontawesome/brands/github
+
+  #palette:
+  #  - scheme: default
+  #    toggle:
+  #      icon: material/toggle-switch-off-outline
+  #      name: Switch to dark mode
+  #  - scheme: slate
+  #    toggle:
+  #      icon: material/toggle-switch
+  #      name: Switch to light mode
 
 markdown_extensions:
   - pymdownx.highlight:
