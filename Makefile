@@ -1,7 +1,8 @@
 serve:
 	pipenv shell mkdocs serve
 
-build:
+build: deploy
+deploy: 
 	pipenv shell mkdocs gh-deploy
 
 install:
