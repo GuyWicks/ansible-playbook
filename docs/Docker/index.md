@@ -1,0 +1,3 @@
+# Welcome to Docker
+
+Lots of docker recipes to copy-paste into this area... 

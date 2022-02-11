@@ -35,6 +35,11 @@ markdown_extensions:
   - tables
   - attr_list
   - def_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:
