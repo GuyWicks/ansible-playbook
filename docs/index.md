@@ -1,10 +1,17 @@
+---
+hide:
+  - navigation
+  - toc
+---
 # Welcome
 
-[**Ansible Playbook on Githib Pages**](https://guywicks.github.io/ansible-playbook/)
+[**Ansible Playbook on Github Pages**](https://guywicks.github.io/ansible-playbook/)
 
 Scripts and recipes for deploying cloud infrastructure via Ansible and Terraform (with a bit of shell scripting just for fun)
 
 Currently based on the [Oracle Cloud Free Tier](https://www.oracle.com/uk/cloud/free/) services. In the future we'll try to get examples on some other cloud platforms.
+
+> Note: This documentation is very much work in progress. Even setting up mkdocs in a way I like is still ongoing.  Pages *WILL* move.
 
 ## Repository structure
 
@@ -18,7 +25,7 @@ Currently based on the [Oracle Cloud Free Tier](https://www.oracle.com/uk/cloud/
 ### Terraform Phase:
 
 - [x] Terraform basic configuration (DF)
-- [x] Implemenr variables (DF)
+- [x] Implement variables (DF)
 - [ ] Refactoring (DF)
 - [ ] Test on other providers (GW)
 - [ ] Documentation (DF/GW)
@@ -28,12 +35,16 @@ Currently based on the [Oracle Cloud Free Tier](https://www.oracle.com/uk/cloud/
 
 - [ ] Networking
     * [x] IPTABLES
-    * [x] 
-    * [ ] Praesent sed risus massa
+    * [ ] 
+    * [ ] 
 - [ ] Native software
     * [x] NGINX install
     * [ ] NGINX base config
 
 ### Docker
 
-Not started
+Not started work on this yet.
+
+## ToDo
+
+- On the 'welcome page', get the subsections to work.
