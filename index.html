@@ -72,7 +72,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="." title="Ansible Playbook" class="md-header__button md-logo" aria-label="Ansible Playbook" data-md-component="logo">
       
@@ -150,13 +152,116 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="." class="md-tabs__link md-tabs__link--active">
+      Welcome
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Ansible/" class="md-tabs__link">
+        Ansible
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Docker/" class="md-tabs__link">
+        Docker
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Post%20provisoning/" class="md-tabs__link">
+        Post provisoning
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Terraform/" class="md-tabs__link">
+        Terraform
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="mkdocs/" class="md-tabs__link">
+        Mkdocs
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -164,13 +269,17 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="." title="Ansible Playbook" class="md-nav__button md-logo" aria-label="Ansible Playbook" data-md-component="logo">
       
@@ -277,6 +386,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#todo" class="md-nav__link">
+    ToDo
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -296,15 +412,29 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" data-md-state="indeterminate" type="checkbox" id="__nav_2" checked>
       
       
       
+        
+          
+            
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_2">
-          Ansible
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="Ansible/">Ansible</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
       
       <nav class="md-nav" aria-label="Ansible" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
@@ -314,13 +444,15 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+          
+            
               
   
   
   
     <li class="md-nav__item">
-      <a href="Ansible/" class="md-nav__link">
-        Welcome to Ansible
+      <a href="Ansible/page2/" class="md-nav__link">
+        page 2
       </a>
     </li>
   
@@ -344,15 +476,29 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
       
       
       
+        
+          
+            
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_3">
-          Docker
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="Docker/">Docker</a>
+          
+            <label for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
       
       <nav class="md-nav" aria-label="Docker" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
@@ -362,13 +508,15 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+          
+            
               
   
   
   
     <li class="md-nav__item">
-      <a href="Docker/" class="md-nav__link">
-        Welcome to Docker
+      <a href="Docker/page2/" class="md-nav__link">
+        page 2
       </a>
     </li>
   
@@ -392,15 +540,29 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" data-md-state="indeterminate" type="checkbox" id="__nav_4" checked>
       
       
       
+        
+          
+            
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_4">
-          Post provisoning
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="Post%20provisoning/">Post provisoning</a>
+          
+            <label for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
       
       <nav class="md-nav" aria-label="Post provisoning" data-md-level="1">
         <label class="md-nav__title" for="__nav_4">
@@ -410,13 +572,15 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+          
+            
               
   
   
   
     <li class="md-nav__item">
-      <a href="Post%20provisoning/" class="md-nav__link">
-        Post provisioning scripts
+      <a href="Post%20provisoning/page2/" class="md-nav__link">
+        page 2
       </a>
     </li>
   
@@ -440,15 +604,29 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" data-md-state="indeterminate" type="checkbox" id="__nav_5" checked>
       
       
       
+        
+          
+            
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_5">
-          Terraform
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="Terraform/">Terraform</a>
+          
+            <label for="__nav_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
       
       <nav class="md-nav" aria-label="Terraform" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
@@ -458,13 +636,15 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+          
+            
               
   
   
   
     <li class="md-nav__item">
-      <a href="Terraform/" class="md-nav__link">
-        Server provisioning
+      <a href="Terraform/page2/" class="md-nav__link">
+        page 2
       </a>
     </li>
   
@@ -488,15 +668,29 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" data-md-state="indeterminate" type="checkbox" id="__nav_6" checked>
       
       
       
+        
+          
+            
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_6">
-          Mkdocs
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="mkdocs/">Mkdocs</a>
+          
+            <label for="__nav_6">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
       
       <nav class="md-nav" aria-label="Mkdocs" data-md-level="1">
         <label class="md-nav__title" for="__nav_6">
@@ -505,18 +699,6 @@
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="mkdocs/mkdocs/" class="md-nav__link">
-        mkdocs Instructions
-      </a>
-    </li>
-  
-
             
           
             
@@ -547,7 +729,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -606,6 +790,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#todo" class="md-nav__link">
+    ToDo
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -624,9 +815,12 @@
 
 
 <h1 id="welcome">Welcome</h1>
-<p><a href="https://guywicks.github.io/ansible-playbook/"><strong>Ansible Playbook on Githib Pages</strong></a></p>
+<p><a href="https://guywicks.github.io/ansible-playbook/"><strong>Ansible Playbook on Github Pages</strong></a></p>
 <p>Scripts and recipes for deploying cloud infrastructure via Ansible and Terraform (with a bit of shell scripting just for fun)</p>
 <p>Currently based on the <a href="https://www.oracle.com/uk/cloud/free/">Oracle Cloud Free Tier</a> services. In the future we'll try to get examples on some other cloud platforms.</p>
+<blockquote>
+<p>Note: This documentation is very much work in progress. Even setting up mkdocs in a way I like is still ongoing.  Pages <em>WILL</em> move.</p>
+</blockquote>
 <h2 id="repository-structure">Repository structure</h2>
 <ul>
 <li><a href="./Terraform/">Terraform</a> - Provision the infrastructure</li>
@@ -638,7 +832,7 @@
 <h3 id="terraform-phase">Terraform Phase:</h3>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Terraform basic configuration (DF)</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Implemenr variables (DF)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Implement variables (DF)</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Refactoring (DF)</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Test on other providers (GW)</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Documentation (DF/GW)</li>
@@ -648,8 +842,8 @@
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Networking<ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> IPTABLES</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> </li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Praesent sed risus massa</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> </li>
 </ul>
 </li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Native software<ul class="task-list">
@@ -659,12 +853,21 @@
 </li>
 </ul>
 <h3 id="docker">Docker</h3>
-<p>Not started</p>
+<p>Not started work on this yet.</p>
+<h2 id="todo">ToDo</h2>
+<ul>
+<li>On the 'welcome page', get the subsections to work.</li>
+</ul>
 
               
             </article>
           </div>
         </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
         
       </main>
       
@@ -714,7 +917,7 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": ["content.code.annotate", "navigation.instant"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.092fa1f6.min.js"}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["content.code.annotate", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.indexes", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.092fa1f6.min.js"}</script>
     
     
       <script src="assets/javascripts/bundle.5a9542cf.min.js"></script>
